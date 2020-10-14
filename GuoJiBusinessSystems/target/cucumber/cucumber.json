@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-14T12:32:21.322Z",
+        "line": 3,
+        "name": "Logo presence on GuoJiBusinessSystems logo",
+        "description": "",
+        "id": "guojibusinesssystems-login;logo-presence-on-guojibusinesssystems-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5997000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch chrome browser",
+            "match": {
+              "location": "stepDefs.GuoJiBusinessSystemsSteps.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13534000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open GuoJiBusinessSystems home page",
+            "match": {
+              "location": "stepDefs.GuoJiBusinessSystemsSteps.i_open_orange_hrm_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify that the logo present on page",
+            "match": {
+              "location": "stepDefs.GuoJiBusinessSystemsSteps.i_verify_that_the_logo_present_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 622000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefs.GuoJiBusinessSystemsSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "GuoJiBusinessSystems Login",
+    "description": "",
+    "id": "guojibusinesssystems-login",
+    "keyword": "Feature",
+    "uri": "file:Features/GuoJiBusinessSystems.feature",
+    "tags": []
+  }
+]
